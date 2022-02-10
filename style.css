@@ -64,15 +64,15 @@ aside{
     width: 95%;
 }
 .chat-send{
-    position: relative;
-    bottom: 50px;
-    left: 380px;
-    width: 20%;
+    position: absolute;
+    bottom: 5px;
+    left: 450px;
+    width: 18%;
 }
 .chat-layer{
-    position: relative;
-    bottom: 50px;
-    left: 400px;
-    width: 9%;
+    position: absolute;
+    bottom: 10px;
+    left: 420px;
+    width: 8%;
 }
 
