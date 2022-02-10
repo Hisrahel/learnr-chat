@@ -52,6 +52,7 @@ aside{
     border-radius: 50px;
 }
 .chatinput{
+    position: relative;
     border-radius: 50px;
     border: 2px solid #002147;
 }
@@ -74,5 +75,47 @@ aside{
     bottom: 10px;
     left: 420px;
     width: 8%;
+}
+.chat-dropbtn {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.chat-dropbtn:hover {
+    text-decoration: none;
+}
+.chat-dropdown {
+    display: inline-block;
+}
+  
+.chat-dropdown-content {
+    display: none;
+    position: absolute;
+    background: #f9f9f9;
+    min-width: 150px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    margin-top: 1px;
+}
+  
+.chat-dropdown-content a {
+    color: black;
+    padding: 10px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+.chat-dropdown-content a :hover{
+    padding: 10px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+    background-color: #f1f1f1;
+}
+  
+.chat-dropdown:hover .chat-dropdown-content {
+    display: block;
 }
 
