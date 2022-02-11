@@ -11,20 +11,20 @@
 </head>
 <body>
     
-    <section class="py-5">
+    <section class="py-5 d-none d-md-block"> 
         <div class="container">
-            <div class="card shadow">
+            <div class="card shadow chat-card">
 
                  <div class="container">
                 <div class="row">
                     <div class="col-md-5">
-                            <aside class="pb-5 pt-4">
+                            <aside class="pb-5 pt-4 chat-aside">
                                 <h5>Messages</h5><br>
                                 <div class="row pb-4">
-                                <div class="col-md-9"
+                                <div class="col-9"
                                 ><input type="text" placeholder="     search here..." class="form-control chat-input mt-1">
                             </div>
-                                <div class="col-md-3">
+                                <div class="col-3">
                                     <img src="img/chat-bg.png" alt="" width="65%" class=""> 
                                 </div>
                                 </div>
@@ -144,14 +144,14 @@
                             <hr>
 
                             <div class="pb-3">
-                            <p class="hello"><small>Hello ma!</small></p>
-                            <p class="hellos"><small>I have a problem with the course and buying</small> </p>
+                            <p class="chat-hello"><small>Hello ma!</small></p>
+                            <p class="chat-hellos"><small>I have a problem with the course and buying</small> </p>
                             <small class="text-secondary">12:45 PM</small>
                             </div>
 
-                            <div class="space">
-                                <p class="autos"><small>Hello Ikeoluwa!</small> </p>
-                                <p class="auto"><small>I'm not finished yet, why don't work 
+                            <div class="chat-space">
+                                <p class="chat-autos"><small>Hello Ikeoluwa!</small> </p>
+                                <p class="chat-auto"><small>I'm not finished yet, why don't work 
                                     together to finish homework?</small></p>
                                 <p class="text-secondary text-right pb-5"><small>12:45 PM</small> </p>
                                 </div>
@@ -160,7 +160,7 @@
                             <div class="row">
                                 <div class="col-md-12">
                                     <hr>
-                                    <input type="text" placeholder="write your message..." class="form-control chatinput p-4">
+                                    <input type="text" placeholder="      Write your message..." class="form-control chatinput p-4">
                                    <a href="" class=""> <img src="img/chat-layer.png " alt="" class="btn chat-layer"></a>
                                     <a href="" class=""><img src="img/chat-send.png" alt="" class="btn chat-send"></a>
                                 </div>
@@ -171,6 +171,36 @@
                         </div>
                     </div>
                 </div>
+        </div>
+        </div>
+    </section>
+
+                <!-- RESPONSIVENESS -->
+
+
+                <section class="d-flex d-md-none">
+                    <div class="chat-contain">
+                        <div class="card shadow chat-card">
+                            <div class="container-fluid">
+                <aside class="pb-5 pt-4">
+                    <h3>Messages</h3><br>
+                    <div class="row pb-4">
+                    <div class="col-10"
+                    ><input type="text" placeholder="                Search here..." class="form-control chat-input mt-2 py-4">
+                    <i class="fa fa-search chat-search"></i>
+                </div>
+                    <div class="col-2">
+                        <a href="convoscreen.html" class=""><img src="img/chat-bg.png" alt="" width="65px"> </a>
+                    </div>
+                    </div>
+    
+                       
+                    <p class="chat-zerostate text-secondary">You have no New Messages</p>
+                        
+              
+                </aside>
+
+            </div>
         </div>
         </div>
     </section>
