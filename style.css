@@ -132,11 +132,12 @@ body{
         border: 2px solid rgba(0, 0, 0, 0.296);
     }
     .chat-contain{
-        width: 97%;
+        width: 95%;
+        padding-left: 6px;
     }
     .chat-search{
         position: absolute;
-        bottom: 22px;
+        bottom: 16px;
         left: 40px;
     }
     .chat-card{
@@ -186,10 +187,12 @@ body{
     }
     .chat-send{
         position: absolute;
-        left: 435px;
+        left: 265px;
+        width: 30%;
+        padding-right: 50px;
     }
     .chat-message{
-        margin-top: 200px;
+        margin-top: 120px;
     }
 }
 
