@@ -132,8 +132,7 @@ body{
         border: 2px solid rgba(0, 0, 0, 0.296);
     }
     .chat-contain{
-        width: 95%;
-        padding-left: 6px;
+        width: 100%;
     }
     .chat-search{
         position: absolute;
@@ -171,7 +170,7 @@ body{
         background: #e1dfdf;
     }
     .chat-dropdown-content {
-        min-width: 50px;
+        min-width: 0px;
     }
     hr{
        border:2px solid #E1DFDF ; 
@@ -187,8 +186,8 @@ body{
     }
     .chat-send{
         position: absolute;
-        left: 265px;
-        width: 30%;
+        left: 250px;
+        width: 40%;
         padding-right: 50px;
     }
     .chat-message{
